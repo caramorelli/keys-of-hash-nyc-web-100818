@@ -13,6 +13,7 @@ class Hash
       new_obj[arguments[0]]
     when 2 
       new_obj[arguments[0]][arguments[1]]
+    end 
   
   end
 end
