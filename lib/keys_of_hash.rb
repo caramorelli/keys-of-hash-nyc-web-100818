@@ -8,8 +8,7 @@ class Hash
         new_obj[val] = [key]
       end 
     end 
-    puts arguments.size 
-    puts arguments
+    if arguments.
   
   end
 end
