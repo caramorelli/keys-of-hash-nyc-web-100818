@@ -11,6 +11,7 @@ class Hash
     num = arguments.counts 
     while num > 0
      new_obj[arguments]
-     num += 1
+     num += 1 
+   end 
   end
 end
