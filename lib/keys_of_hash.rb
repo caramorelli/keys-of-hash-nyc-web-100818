@@ -8,7 +8,9 @@ class Hash
         new_obj[val] = [key]
       end 
     end 
-    while arguments.count > 0
-    new_obj[arguments]
+    num = arguments.counts 
+    while num > 0
+     new_obj[arguments]
+     num += 1
   end
 end
