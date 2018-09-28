@@ -8,6 +8,12 @@ class Hash
         new_obj[val] = [key]
       end 
     end 
-    arguments.map { |arg| new_obj[arguments]
+    case arguments.count
+    when 1
+      new_obj[arguments]
+    else 
+      arguments.each do |arg|
+        new_obj[arg]
+      end 
   end
 end
