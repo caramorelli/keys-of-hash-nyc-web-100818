@@ -7,5 +7,6 @@ class Hash
       else 
         new_obj[val] = [key]
       end 
+    end 
   end
 end
