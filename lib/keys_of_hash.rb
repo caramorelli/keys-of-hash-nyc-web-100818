@@ -15,7 +15,7 @@ class Hash
       arr = new_obj[arguments[0]]
       new_obj[arguments[0]] += new_obj[arguments[1]]
          
-      end 
+       
     end 
   
   end
