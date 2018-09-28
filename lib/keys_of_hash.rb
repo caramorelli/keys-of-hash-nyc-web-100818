@@ -9,7 +9,7 @@ class Hash
       end 
     end 
     counter = 0
-    while num < arguments.count
+    while counter < arguments.count
      new_obj[arguments[counter]]
      counter += 1 
    end 
