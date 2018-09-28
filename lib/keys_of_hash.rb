@@ -13,7 +13,7 @@ class Hash
       new_obj[arguments[0]]
     when 2 
       arguments.each do |arg|
-         puts new_obj[arg][arguments[1]]
+         puts (new_obj[arg])[arguments[1]]
       end 
     end 
   
