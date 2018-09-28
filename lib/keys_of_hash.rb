@@ -1,6 +1,7 @@
 class Hash
   def keys_of(arguments)
-    new_arr = []
+    new_obj = {}
     self.each do |key, val|
+      new_obj
   end
 end
