@@ -15,5 +15,6 @@ class Hash
       arguments.each do |arg|
         new_obj[arg]
       end 
+    end 
   end
 end
