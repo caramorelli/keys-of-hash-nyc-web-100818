@@ -8,14 +8,7 @@ class Hash
         new_obj[val] = [key]
       end 
     end 
-    puts arguments.size
-    # case arguments.size
-    # when 1
-    #   return new_obj[arguments]
-    # else 
-    #   arguments.each do |arg|
-    #     return new_obj[arg]
-    #   end 
-    # end 
+    puts arguments.size 
+    puts arguments
   end
 end
