@@ -10,7 +10,7 @@ class Hash
     end 
     count = 0
     while num < arguments.count
-     new_obj[arguments[num]]
+     new_obj[arguments[count]]
      count += 1 
    end 
   end
