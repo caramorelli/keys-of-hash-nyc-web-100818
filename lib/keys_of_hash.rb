@@ -8,7 +8,7 @@ class Hash
         new_obj[val] = [key]
       end 
     end 
-    puts arguments.count
+    puts arguments.size
     # case arguments.count
     # when 1
     #   return new_obj[arguments]
