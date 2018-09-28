@@ -8,6 +8,6 @@ class Hash
         new_obj[val] = [key]
       end 
     end 
-    new_obj[arguments]
+    new_obj[arguments.each]
   end
 end
