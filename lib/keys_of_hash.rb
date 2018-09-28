@@ -9,7 +9,7 @@ class Hash
       end 
     end 
     puts arguments.size
-    # case arguments.count
+    # case arguments.size
     # when 1
     #   return new_obj[arguments]
     # else 
