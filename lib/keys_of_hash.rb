@@ -14,9 +14,6 @@ class Hash
     when 2 
       arr = new_obj[arguments[0]]
       new_obj[arguments[0]] += new_obj[arguments[1]]
-         
-       
     end 
-  
   end
 end
