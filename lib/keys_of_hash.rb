@@ -10,8 +10,9 @@ class Hash
     end 
     case arguments.length 
     when 1 
-      new_obj[arguments]
-    puts arguments.length
+      new_obj[arguments[0]]
+    when 2 
+      new_obj[]
   
   end
 end
