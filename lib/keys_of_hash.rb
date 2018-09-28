@@ -12,7 +12,9 @@ class Hash
     when 1 
       new_obj[arguments[0]]
     when 2 
-      new_obj[arguments[0][[arguments[1]]]]
+      arguments.each do |arg|
+        puts arg 
+      end 
     end 
   
   end
