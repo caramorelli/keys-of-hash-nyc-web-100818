@@ -10,5 +10,6 @@ class Hash
     end 
     puts arguments.size 
     puts arguments
+  
   end
 end
