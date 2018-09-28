@@ -1,5 +1,5 @@
 class Hash
-  def keys_of(arguments)
+  def keys_of(*arguments)
     new_obj = {}
     self.each do |key, val|
       if new_obj.has_key?(val)
