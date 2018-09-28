@@ -13,7 +13,7 @@ class Hash
       new_obj[arguments[0]]
     when 2 
       arr = new_obj[arguments[0]]
-      new_obj[arguments[0]] << arguments.each do |arg|
+      new_obj[arguments[0]] << new_obj[arguments[1]]
          
       end 
     end 
