@@ -1,9 +1,7 @@
 class Hash
   def keys_of(arguments)
     arg_arr = []
-    arguments.each do |hi|
-      puts hi 
-    end 
+   puts arguments
     arg_arr
   end
 end
