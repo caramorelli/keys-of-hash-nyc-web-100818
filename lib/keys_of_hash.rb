@@ -13,7 +13,7 @@ class Hash
       return new_obj[arguments]
     else 
       arguments.each do |arg|
-        new_obj[arg]
+        return new_obj[arg]
       end 
     end 
   end
