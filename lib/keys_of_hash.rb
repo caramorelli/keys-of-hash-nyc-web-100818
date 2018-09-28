@@ -10,7 +10,7 @@ class Hash
     end 
     case arguments.count
     when 1
-      new_obj[arguments]
+      return new_obj[arguments]
     else 
       arguments.each do |arg|
         new_obj[arg]
