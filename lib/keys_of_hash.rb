@@ -8,6 +8,6 @@ class Hash
         new_obj[val] = [key]
       end 
     end 
-    new_obj[arguments*]
+    arguments.map { |arg| new_obj[arguments]
   end
 end
