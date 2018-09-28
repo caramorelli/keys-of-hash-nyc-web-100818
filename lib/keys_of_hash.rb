@@ -8,13 +8,13 @@ class Hash
         new_obj[val] = [key]
       end 
     end 
-    case arguments.count
-    when 1
-      return new_obj[arguments]
-    else 
-      arguments.each do |arg|
-        return new_obj[arg]
-      end 
-    end 
+    # case arguments.count
+    # when 1
+    #   return new_obj[arguments]
+    # else 
+    #   arguments.each do |arg|
+    #     return new_obj[arg]
+    #   end 
+    # end 
   end
 end
