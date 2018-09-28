@@ -8,6 +8,9 @@ class Hash
         new_obj[val] = [key]
       end 
     end 
+    case arguments.length 
+    when 1 
+      new_obj[arguments]
     puts arguments.length
   
   end
