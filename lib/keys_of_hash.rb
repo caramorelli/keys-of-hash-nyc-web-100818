@@ -1,5 +1,5 @@
 class Hash
   def keys_of(arguments)
-    puts self
+    new_arr = []
   end
 end
